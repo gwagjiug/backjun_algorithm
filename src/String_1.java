@@ -12,7 +12,8 @@ public class String_1 {
         for(int i = 0; i<s.length();i++){//문자열 s에 대하여 첫 번째 문자 부터 마지막 문자까지 검사하기 위한 반복문을 작성해줌
 
             if('A'<= s.charAt(i) && s.charAt(i)<='Z'){
-                arr[s.charAt(i) - 65]++;
+                arr[s.charAt(i) - 65]++; //i가 0이고 a로 시작하는 문장을 입력했을 경우, a의 아스키 코드 값은 97 97- 97 = 0
+                //즉 , arr[0]번 인덱스가 ++되면서 1이됨
             }
             else { //소문자 범위
                 arr[s.charAt(i)- 97]++;
