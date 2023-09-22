@@ -25,9 +25,10 @@ public class longitude_reading {
         for (int k = 0; k < 15; k++) {
             for (int q = 0; q < 5; q++) {
                 // '\0'이 아닌 경우에만 출력
-                if (str[q][k] != '\0') {
-                    System.out.print(str[q][k]);
-                }
+//                if (str[q][k] != '\0') {
+//                    System.out.print(str[q][k]);
+//                }
+                System.out.print(str[q][k]);
 
             }
         }

@@ -21,6 +21,7 @@ public class Sort2 {
         }
 
         Collections.sort(list);
+        //list 내의 정수를 오름차순으로 정렬
 
         for(int value : list){
             sb.append(value).append('\n');
