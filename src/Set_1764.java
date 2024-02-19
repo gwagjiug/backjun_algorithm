@@ -12,7 +12,7 @@ public class Set_1764 {
 
         List<String> list = new ArrayList<>();
 
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        StringTokenizer st = new StringTokenizer(br.readLine()); //공백 단위로 읽어들일 수 있는 라인 추가
 
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
