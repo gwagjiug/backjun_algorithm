@@ -16,7 +16,7 @@ public class Pcce_10 {
         System.out.println("Enter the number of columns in the board:");
         int cols = sc.nextInt();
 
-        // 사용자로부터 보드의 요소를 입력받습니다.
+        // 사용자로부터 보드의 요소를 입력받습니
         String[][] board = new String[rows][cols];
         System.out.println("Enter the elements of the board:");
         for (int i = 0; i < rows; i++) {

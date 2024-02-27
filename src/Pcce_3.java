@@ -15,6 +15,7 @@ public class Pcce_3 {
             answer = 2024- year;
         }
 
+
         System.out.println(answer);
     }
 }

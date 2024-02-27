@@ -22,10 +22,14 @@ public class Baseketball {
             if(alpha[i] >= 5){
                 sign = true;
                 System.out.print((char)(i+97));
+                //ASCII 코드 값을 char 형태로 형 변환
             }
         }
         if(!sign) System.out.println("PREDAJA");
 
 
     }
+
+
+
 }
