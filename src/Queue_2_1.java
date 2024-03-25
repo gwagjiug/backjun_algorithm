@@ -26,7 +26,7 @@ public class Queue_2_1 {
 
                 case "pop":
 
-                    sb.append(Dq.isEmpty() ? -1 : sb.append(Dq.pop()).append('\n'));
+                    sb.append(Dq.isEmpty() ? -1 : Dq.pop()).append('\n');
                     break;
 
                 case "size":
