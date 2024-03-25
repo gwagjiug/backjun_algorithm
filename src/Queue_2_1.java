@@ -38,7 +38,7 @@ public class Queue_2_1 {
                     break;
 
                 case "front":
-                    sb.append(Dq.isEmpty() ? -1 : Dq.peek()).append('\n');
+                    sb.append(Dq.isEmpty() ? -1 : Dq.peek()).append('\n'); //peek은 데이터를 제거히지 않고 단순 반환
                     break;
 
                 case "back":
