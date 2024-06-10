@@ -12,6 +12,7 @@ public class Number_Following {
         
         int plus = 1;
         int num = 10;
+        //
 
         int N = Integer.parseInt(br.readLine());
 

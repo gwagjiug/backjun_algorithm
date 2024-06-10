@@ -9,7 +9,7 @@ class Stack
     {
         arr = new int[size];
         capacity = size;
-        top = -1;
+        top = -1; // 스택이 비어있는 상태를 나타내기 위해 초기 값을 -1로 초기화
     }
 
     // Stack에 요소 `x`를 추가하는 유틸리티 함수

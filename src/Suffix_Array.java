@@ -8,12 +8,17 @@ public class Suffix_Array {
 
         String S = sc.next();
 
+
         String str [] = new String[S.length()];
+        char c [] = new char[str.length];
 
         for (int i = 0; i<S.length(); i++ ){
             str[i] = S.substring(i,S.length());
+
+
             //지정된 범위에 해당하는 부분 문자열을 반환하는 메서드
         }
+
 
         Arrays.sort(str);
 
