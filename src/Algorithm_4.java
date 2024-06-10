@@ -10,6 +10,7 @@ public class Algorithm_4 {
 
         System.out.println((n * (n - 1)) / 2);
         System.out.println(2);
+        //55
 
         br.close();
 
