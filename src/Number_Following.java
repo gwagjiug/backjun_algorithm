@@ -9,6 +9,7 @@ public class Number_Following {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int count = 0;
+        
         int plus = 1;
         int num = 10;
 
@@ -24,6 +25,7 @@ public class Number_Following {
             count += plus;
         }
         System.out.println(count);
+        //comit
 
     }
 }
