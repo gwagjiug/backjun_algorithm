@@ -19,6 +19,8 @@ public class Minimum_Heap {
 
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
 
+        /*우선순위 큐는 기본적으로 최소 힙 구조임 최소 힙은 가장 작은 값이 루트에 위치하는 이진 트리 구조*/
+
         /*PriorityQueue 를 생성하면 최소힙이 구현됨
         *
         * PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
