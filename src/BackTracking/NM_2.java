@@ -7,7 +7,7 @@ public class NM_2 {
 
     private static int N,M;
     private static int arr[];
-    private static boolean visited[];
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class NM_2 {
         M = sc.nextInt();
 
         arr = new int[M];
-        visited = new boolean[N + 1];
+
 
         combination(0,1);
 
